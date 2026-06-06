@@ -96,6 +96,20 @@ Star the repo if you find it useful!
 - AI agents interacting with personal or sensitive data should be used with strong privacy and security practices.
 - Self-hosted open-source solutions require proper setup and ongoing maintenance.
 
+
+
+## 📈 Star History
+
+<div align="center">
+	<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Virtual-Assistant-AI-Agents&type=date&legend=bottom-right">
+	 <picture>
+	   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Virtual-Assistant-AI-Agents&type=date&theme=dark&legend=bottom-right" />
+	   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Virtual-Assistant-AI-Agents&type=date&legend=bottom-right" />
+	   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Virtual-Assistant-AI-Agents&type=date&legend=bottom-right" />
+	 </picture>
+	</a>
+</div>
+
 ---
 
 **Made for professionals, founders, developers, and productivity enthusiasts.**  
