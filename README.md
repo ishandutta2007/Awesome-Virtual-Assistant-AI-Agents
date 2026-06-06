@@ -21,23 +21,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS Products
 
-### Core Platforms (Virtual Assistant AI Agents)
+### Virtual Assistant AI Agents (SaaS Comparison)
 
-- **[Lindy](https://www.lindy.ai/)**  
-  Powerful AI personal assistant that automates emails, scheduling, research, and daily workflows with strong agentic capabilities.
+| Product Name | Description | Pricing (Paid Tiers) | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[Lindy](https://www.lindy.ai/)** | AI personal assistant that automates emails, scheduling, and research. | Starts at $49.99/mo | 400 task credits/mo |
+| **[Fin AI Agent (Intercom)](https://www.intercom.com/fin)** | Intelligent customer-facing virtual assistant for support and sales. | $0.99 per resolution (min 50/mo) | 14-day trial (Startup: 1 yr free) |
+| **[Amelia](https://amelia.ai/)** | Enterprise-grade conversational AI for complex business processes. | Custom (Quote-based) | 30-day trial (Sales-led) |
+| **[Floatbot](https://floatbot.ai/)** | No-code platform for building sophisticated chat and voice assistants. | Starts at $119/mo | 14-day trial |
+| **[MultiOn](https://www.multion.ai/)** | Browser-based agent that performs web tasks autonomously. | Starts at $9.99/mo | 200 agent credits (one-time) |
+| **[Adept](https://www.adept.ai/)** | Enterprise AI for automating complex workflows across software interfaces. | Enterprise (Quote-based) | Demo on request |
+| **[Rabbit R1](https://rabbit.tech/)** | Handheld AI device with a Large Action Model (LAM) for mobile tasks. | $199 one-time (Hardware) | Core LAM features included |
+| **[AgentGPT](https://agentgpt.reworkd.ai/)** | Autonomous agent for task planning and execution (Note: Project Archived). | $40/mo (Legacy) | 5 demo agents per day |
+| **[HyperWrite Personal Assistant](https://www.hyperwriteai.com/personal-assistant)** | AI assistant for browser tasks, research, and writing automation. | Starts at $19.99/mo | Limited monthly AI credits |
 
-- **[Fin AI Agent (Intercom)](https://www.intercom.com/)**  
-  Intelligent customer-facing virtual assistant integrated into Intercom for support, sales, and personalized assistance.
-
-- **[Amelia](https://amelia.ai/)**  
-  Enterprise-grade conversational AI virtual assistant focused on complex business processes and customer support.
-
-- **[Floatbot](https://floatbot.ai/)**  
-  No-code conversational AI platform for building sophisticated virtual assistants across channels.
-
-### Advanced & Specialized Platforms
-
-**Other notable mentions**: Adept, MultiOn, Rabbit R1 agents, and various productivity-focused AI assistants.
+**Other notable mentions**: [Aypods](https://aypods.com/), [Cognosys](https://www.cognosys.ai/), and [Godmode.space](https://godmode.space/). These tools vary in their maturity and specific use cases (research vs. task execution).
 
 ## Open-Source GitHub Projects
 
