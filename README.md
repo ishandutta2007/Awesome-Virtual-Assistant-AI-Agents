@@ -82,6 +82,9 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
 - **[Huginn](https://github.com/huginn/huginn)** 🐦 — Personal automation agent for monitoring and acting on information.
 - **[Mem0](https://github.com/mem0ai/mem0)** 💾 — Production memory layer for giving assistants long-term recall.
 
+### 🔐 Agent Identity & Trust
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** — Trust scoring and wallet identity verification for virtual assistant AI agents. Verify agent wallet identity before autonomous API access or x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
 ---
 
 ## 🤝 How to Contribute
