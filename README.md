@@ -4,6 +4,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtual-Assistant-AI-Agents.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Virtual-Assistant-AI-Agents/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br />
+<br />
+<a href="https://github.com/ishandutta2007?tab=followers">
+  <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ishandutta2007?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+</a>
+
+
 
 ## 🌟 Top Virtual Assistant AI Agents Ecosystem 2026
 
