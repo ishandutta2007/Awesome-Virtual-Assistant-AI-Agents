@@ -56,6 +56,9 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
 
 ### 🛠️ Dedicated Virtual Assistant & AI Agent Projects
 
+- **[Orkas](https://github.com/Orkas-AI/Orkas)** 🧭
+  Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+
 - **[OpenWebUI](https://github.com/open-webui/open-webui)** 🏠  
   Full-featured open-source web interface for local LLMs with strong virtual assistant capabilities, tools, memory, and multi-agent support.
 
