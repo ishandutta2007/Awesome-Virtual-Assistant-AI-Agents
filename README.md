@@ -36,18 +36,18 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
 
 ### 📊 Virtual Assistant AI Agents (SaaS Comparison)
 
-| Product Name | 📝 Description | 💰 Pricing (Paid Tiers) | 🎁 Free Tier / Trial Limit |
-| :--- | :--- | :--- | :--- |
-| **[Lindy](https://www.lindy.ai/)** | AI personal assistant that automates emails, scheduling, and research. | Starts at $49.99/mo | 400 task credits/mo |
-| **[Fin AI Agent (Intercom)](https://www.intercom.com/fin)** | Intelligent customer-facing virtual assistant for support and sales. | $0.99 per resolution (min 50/mo) | 14-day trial (Startup: 1 yr free) |
-| **[Amelia](https://amelia.ai/)** | Enterprise-grade conversational AI for complex business processes. | Custom (Quote-based) | 30-day trial (Sales-led) |
-| **[Floatbot](https://floatbot.ai/)** | No-code platform for building sophisticated chat and voice assistants. | Starts at $119/mo | 14-day trial |
-| **[MultiOn](https://www.multion.ai/)** | Browser-based agent that performs web tasks autonomously. | Starts at $9.99/mo | 200 agent credits (one-time) |
-| **[Adept](https://www.adept.ai/)** | Enterprise AI for automating complex workflows across software interfaces. | Enterprise (Quote-based) | Demo on request |
-| **[Rabbit R1](https://rabbit.tech/)** | Handheld AI device with a Large Action Model (LAM) for mobile tasks. | $199 one-time (Hardware) | Core LAM features included |
-| **[AgentGPT](https://agentgpt.reworkd.ai/)** | Autonomous agent for task planning and execution (Note: Project Archived). | $40/mo (Legacy) | 5 demo agents per day |
-| **[HyperWrite Personal Assistant](https://www.hyperwriteai.com/personal-assistant)** | AI assistant for browser tasks, research, and writing automation. | Starts at $19.99/mo | Limited monthly AI credits |
-| **[Workforce Wave](https://www.workforcewave.com/)** | AI voice agent and virtual receptionist platform for SMBs that answers calls 24/7, screens callers, and books appointments. | Custom (Quote-based) | Demo on request |
+| Product Name | 📝 Description | 🏢 Company Size (Valuation / Revenue) | 💰 Pricing (Paid Tiers) | 🎁 Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Fin AI Agent (Intercom)](https://www.intercom.com/fin)** | Intelligent customer-facing virtual assistant for support and sales. | **$3.6B** Acquisition / ~$400M+ ARR | $0.99 per resolution (min 50/mo) | 14-day trial (Startup: 1 yr free) |
+| **[Adept](https://www.adept.ai/)** | Enterprise AI for automating complex workflows across software interfaces. | **$1B+** Valuation ($415M funding) | Enterprise (Quote-based) | Demo on request |
+| **[Rabbit R1](https://rabbit.tech/)** | Handheld AI device with a Large Action Model (LAM) for mobile tasks. | **~$100M – $150M** Valuation ($64M+ funding) | $199 one-time (Hardware) | Core LAM features included |
+| **[MultiOn](https://www.multion.ai/)** | Browser-based agent that performs web tasks autonomously. | **~$100M** Valuation ($20M+ funding) | Starts at $9.99/mo | 200 agent credits (one-time) |
+| **[Amelia](https://amelia.ai/)** | Enterprise-grade conversational AI for complex business processes. | **$80M** Acquisition / ~$45M ARR | Custom (Quote-based) | 30-day trial (Sales-led) |
+| **[Lindy](https://www.lindy.ai/)** | AI personal assistant that automates emails, scheduling, and research. | **$50M+** Funding / ~$5.2M ARR | Starts at $49.99/mo | 400 task credits/mo |
+| **[Floatbot](https://floatbot.ai/)** | No-code platform for building sophisticated chat and voice assistants. | **~$5.3M** ARR (Bootstrapped) | Starts at $119/mo | 14-day trial |
+| **[HyperWrite Personal Assistant](https://www.hyperwriteai.com/personal-assistant)** | AI assistant for browser tasks, research, and writing automation. | **~$5.4M** Funding / ~$4.2M ARR | Starts at $19.99/mo | Limited monthly AI credits |
+| **[AgentGPT](https://agentgpt.reworkd.ai/)** | Autonomous agent for task planning and execution (Note: Project Archived). | **~$1.25M+** Funding / ~$2.8M ARR | $40/mo (Legacy) | 5 demo agents per day |
+| **[Workforce Wave](https://www.workforcewave.com/)** | AI voice agent and virtual receptionist platform for SMBs that answers calls 24/7, screens callers, and books appointments. | Early-stage / Seed (<$1M ARR) | Custom (Quote-based) | Demo on request |
 
 **💡 Other notable mentions**: [Aypods](https://aypods.com/), [Cognosys](https://www.cognosys.ai/), and [Godmode.space](https://godmode.space/).
 
