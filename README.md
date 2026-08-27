@@ -47,6 +47,7 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
 | **[Rabbit R1](https://rabbit.tech/)** | Handheld AI device with a Large Action Model (LAM) for mobile tasks. | $199 one-time (Hardware) | Core LAM features included |
 | **[AgentGPT](https://agentgpt.reworkd.ai/)** | Autonomous agent for task planning and execution (Note: Project Archived). | $40/mo (Legacy) | 5 demo agents per day |
 | **[HyperWrite Personal Assistant](https://www.hyperwriteai.com/personal-assistant)** | AI assistant for browser tasks, research, and writing automation. | Starts at $19.99/mo | Limited monthly AI credits |
+| **[Workforce Wave](https://www.workforcewave.com/)** | AI voice agent and virtual receptionist platform for SMBs that answers calls 24/7, screens callers, and books appointments. | Custom (Quote-based) | Demo on request |
 
 **💡 Other notable mentions**: [Aypods](https://aypods.com/), [Cognosys](https://www.cognosys.ai/), and [Godmode.space](https://godmode.space/).
 
