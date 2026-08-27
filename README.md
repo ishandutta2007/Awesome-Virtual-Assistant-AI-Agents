@@ -2,6 +2,11 @@
 
 <div align="center">
 
+<img src="./assets/banner.svg" alt="Awesome Virtual Assistant AI Agents Banner" width="100%" />
+
+<br />
+<br />
+
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/awesome-awesome-awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtual-Assistant-AI-Agents.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Virtual-Assistant-AI-Agents/stargazers)

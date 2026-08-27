@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bgGlow1" cx="20%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#0F172A" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="1" />
+    </radialGradient>
+    <radialGradient id="bgGlow2" cx="80%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#3B82F6" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="35%" stop-color="#818CF8" />
+      <stop offset="70%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- CSS Keyframe Animations -->
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { transform: scale(1); opacity: 0.6; }
+        50% { transform: scale(1.15); opacity: 0.95; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(2deg); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(8px) rotate(-2deg); }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes orbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .orbit-group {
+        transform-origin: 1020px 180px;
+        animation: orbit 24s linear infinite;
+      }
+      .orbit-group-rev {
+        transform-origin: 1020px 180px;
+        animation: orbit 18s linear infinite reverse;
+      }
+      .float-box {
+        animation: floatSlow 6s ease-in-out infinite;
+      }
+      .float-box-rev {
+        animation: floatReverse 7s ease-in-out infinite;
+      }
+      .pulse-core {
+        animation: pulseGlow 4s ease-in-out infinite;
+        transform-origin: 1020px 180px;
+      }
+      .signal-line {
+        stroke-dasharray: 6 6;
+        animation: dashAnim 5s linear infinite;
+      }
+      .signal-line-fast {
+        stroke-dasharray: 4 4;
+        animation: dashAnim 2.5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="360" fill="#030712" rx="16" />
+  <rect width="1200" height="360" fill="url(#bgGlow1)" rx="16" />
+  <rect width="1200" height="360" fill="url(#bgGlow2)" rx="16" />
+
+  <!-- Background Tech Grid -->
+  <g opacity="0.12">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#60A5FA" stroke-width="0.75" />
+      <circle cx="40" cy="0" r="1.5" fill="#38BDF8" />
+    </pattern>
+    <rect width="1200" height="360" fill="url(#grid)" rx="16" />
+  </g>
+
+  <!-- Decorative Circuit lines -->
+  <g opacity="0.35">
+    <path d="M 60 40 L 220 40 L 260 80 L 450 80" fill="none" stroke="url(#lineGrad1)" stroke-width="1.5" />
+    <path d="M 100 320 L 300 320 L 350 270 L 520 270" fill="none" stroke="url(#lineGrad2)" stroke-width="1.5" />
+    <circle cx="450" cy="80" r="3" fill="#818CF8" />
+    <circle cx="520" cy="270" r="3" fill="#EC4899" />
+  </g>
+
+  <!-- Left / Center Content: Typography & Brand -->
+  <g transform="translate(70, 0)">
+    <!-- Top Pill Badge -->
+    <g transform="translate(0, 52)">
+      <rect width="270" height="32" rx="16" fill="url(#badgeGrad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.6" />
+      <circle cx="16" cy="16" r="4" fill="#34D399" filter="url(#glowFilter)" />
+      <text x="30" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E0E7FF" letter-spacing="1.5">
+        AUTONOMOUS AI AGENTS 2026
+      </text>
+    </g>
+
+    <!-- Main Title with Gradient Glow -->
+    <text x="0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="900" fill="url(#textGrad)" letter-spacing="-0.5" filter="url(#softGlow)">
+      Awesome Virtual Assistant
+    </text>
+    <text x="0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="900" fill="url(#textGrad)" letter-spacing="-0.5">
+      Awesome Virtual Assistant
+    </text>
+
+    <text x="0" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="-0.5">
+      AI Agents Ecosystem 🤖
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#94A3B8" letter-spacing="0.2">
+      Curated directory of top-tier SaaS products, frameworks &amp; open-source projects
+    </text>
+    <text x="0" y="264" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">
+      Personal Assistants • Multi-Agent Orchestration • Browser Automation • Memory Layers
+    </text>
+
+    <!-- Metric Tags -->
+    <g transform="translate(0, 292)">
+      <!-- Tag 1 -->
+      <g>
+        <rect width="130" height="26" rx="13" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="14" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#38BDF8">✨ SaaS Ranked</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(142, 0)">
+        <rect width="145" height="26" rx="13" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="14" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#A78BFA">⭐ Open-Source Stars</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(299, 0)">
+        <rect width="135" height="26" rx="13" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="14" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#34D399">🚀 2026 Edition</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Visual Area: Interactive Multi-Agent Network Core -->
+  <g id="agentVisualGroup">
+    <!-- Connecting Constellation Lines -->
+    <g stroke-linecap="round">
+      <line x1="1020" y1="180" x2="880" y2="100" stroke="#6366F1" stroke-width="1.5" opacity="0.4" class="signal-line" />
+      <line x1="1020" y1="180" x2="1140" y2="90" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" class="signal-line" />
+      <line x1="1020" y1="180" x2="890" y2="270" stroke="#EC4899" stroke-width="1.5" opacity="0.4" class="signal-line" />
+      <line x1="1020" y1="180" x2="1130" y2="280" stroke="#8B5CF6" stroke-width="1.5" opacity="0.4" class="signal-line" />
+      <line x1="880" y1="100" x2="1140" y2="90" stroke="#3B82F6" stroke-width="1" opacity="0.2" />
+      <line x1="890" y1="270" x2="1130" y2="280" stroke="#C084FC" stroke-width="1" opacity="0.2" />
+      <line x1="880" y1="100" x2="890" y2="270" stroke="#38BDF8" stroke-width="1" opacity="0.2" />
+      <line x1="1140" y1="90" x2="1130" y2="280" stroke="#F472B6" stroke-width="1" opacity="0.2" />
+    </g>
+
+    <!-- Orbit Ring 1 -->
+    <ellipse cx="1020" cy="180" rx="140" ry="140" fill="none" stroke="#6366F1" stroke-width="1" stroke-dasharray="4 8" opacity="0.3" class="signal-line" />
+    <!-- Orbit Ring 2 -->
+    <ellipse cx="1020" cy="180" rx="90" ry="90" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="6 6" opacity="0.4" class="signal-line-fast" />
+
+    <!-- Rotating Orbit Group 1 -->
+    <g class="orbit-group">
+      <circle cx="1160" cy="180" r="5" fill="#38BDF8" filter="url(#glowFilter)">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="880" cy="180" r="4" fill="#EC4899" filter="url(#glowFilter)" />
+    </g>
+
+    <!-- Rotating Orbit Group 2 (Reverse) -->
+    <g class="orbit-group-rev">
+      <circle cx="1020" cy="90" r="4.5" fill="#A855F7" filter="url(#glowFilter)" />
+      <circle cx="1020" cy="270" r="5" fill="#34D399" filter="url(#glowFilter)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Floating Node 1: Multi-Agent Orchestrator -->
+    <g transform="translate(880, 100)" class="float-box">
+      <circle cx="0" cy="0" r="32" fill="#0F172A" stroke="#6366F1" stroke-width="2" filter="url(#glowFilter)" />
+      <circle cx="0" cy="0" r="28" fill="#1E1B4B" />
+      <text x="0" y="6" text-anchor="middle" font-size="20">🤖</text>
+      <!-- Sub label -->
+      <rect x="-35" y="38" width="70" height="18" rx="9" fill="#1E293B" stroke="#475569" stroke-width="0.8" />
+      <text x="0" y="50" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#C7D2FE">AGENTS</text>
+    </g>
+
+    <!-- Floating Node 2: Memory & Context Engine -->
+    <g transform="translate(1140, 90)" class="float-box-rev">
+      <circle cx="0" cy="0" r="30" fill="#0F172A" stroke="#06B6D4" stroke-width="2" filter="url(#glowFilter)" />
+      <circle cx="0" cy="0" r="26" fill="#083344" />
+      <text x="0" y="6" text-anchor="middle" font-size="18">🧠</text>
+      <!-- Sub label -->
+      <rect x="-35" y="36" width="70" height="18" rx="9" fill="#1E293B" stroke="#475569" stroke-width="0.8" />
+      <text x="0" y="48" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#A5F3FC">MEMORY</text>
+    </g>
+
+    <!-- Floating Node 3: Tools & Browser Actions -->
+    <g transform="translate(890, 270)" class="float-box-rev">
+      <circle cx="0" cy="0" r="28" fill="#0F172A" stroke="#EC4899" stroke-width="2" filter="url(#glowFilter)" />
+      <circle cx="0" cy="0" r="24" fill="#500724" />
+      <text x="0" y="5" text-anchor="middle" font-size="17">⚡</text>
+      <!-- Sub label -->
+      <rect x="-35" y="34" width="70" height="18" rx="9" fill="#1E293B" stroke="#475569" stroke-width="0.8" />
+      <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#FBCFE8">ACTIONS</text>
+    </g>
+
+    <!-- Floating Node 4: Autonomy & Workflows -->
+    <g transform="translate(1130, 280)" class="float-box">
+      <circle cx="0" cy="0" r="28" fill="#0F172A" stroke="#8B5CF6" stroke-width="2" filter="url(#glowFilter)" />
+      <circle cx="0" cy="0" r="24" fill="#2E1065" />
+      <text x="0" y="6" text-anchor="middle" font-size="17">🔮</text>
+      <!-- Sub label -->
+      <rect x="-35" y="34" width="70" height="18" rx="9" fill="#1E293B" stroke="#475569" stroke-width="0.8" />
+      <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#E9D5FF">PLANNING</text>
+    </g>
+
+    <!-- Central Neural Core -->
+    <g class="pulse-core">
+      <circle cx="1020" cy="180" r="46" fill="url(#nodeGlow)" />
+      <circle cx="1020" cy="180" r="38" fill="#0F172A" stroke="#38BDF8" stroke-width="2.5" filter="url(#softGlow)" />
+      <circle cx="1020" cy="180" r="32" fill="#0369A1" opacity="0.6" />
+      <text x="1020" y="188" text-anchor="middle" font-size="26">✨</text>
+    </g>
+  </g>
+
+  <!-- Border Gradient Outline -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="url(#textGrad)" stroke-width="1.5" opacity="0.4" />
+</svg>
