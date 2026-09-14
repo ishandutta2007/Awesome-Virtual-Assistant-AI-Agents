@@ -134,6 +134,8 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
   Open-source, local-first desktop AI workforce coordinated by an executive Commander agent through a single chat interface.
 - **[YYLO CLI](https://github.com/yylo-dev/yylo)** [![GitHub stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=social&color=white)](https://github.com/yylo-dev/yylo/stargazers) 🛠️  
   Open-source (MIT) command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, installed via npm.
+- **[Solgrok](https://github.com/LMajster/sgrok)** [![GitHub stars](https://img.shields.io/github/stars/LMajster/sgrok?style=social&color=white)](https://github.com/LMajster/sgrok/stargazers) 🪙  
+  Always-on Solana creator-ops AI agent that promotes $SGROK, claims creator fees, and sweeps rewards autonomously. Site: https://lmajster.github.io/sgrok/
 
 ---
 
