@@ -135,6 +135,9 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
 - **[YYLO CLI](https://github.com/yylo-dev/yylo)** [![GitHub stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=social&color=white)](https://github.com/yylo-dev/yylo/stargazers) 🛠️  
   Open-source (MIT) command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, installed via npm.
 
+- **[Mimir](https://github.com/currentbits/mimir)** [![GitHub stars](https://img.shields.io/github/stars/currentbits/mimir?style=social&color=white)](https://github.com/currentbits/mimir/stargazers) 🧠  
+  Open-source (AGPL-3.0) desktop app and self-hostable server that runs personal assistants on your own Claude, ChatGPT or Grok subscription, reachable from Telegram, Slack, Discord and Signal, with shared memory, email and calendar tools, scheduled routines and approval before actions.
+
 ---
 
 ## 🤝 How to Contribute
