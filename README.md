@@ -55,6 +55,7 @@ This repository is a comprehensive directory of notable **SaaS platforms** and *
 | **[HyperWrite Personal Assistant](https://www.hyperwriteai.com/personal-assistant)** | AI assistant for browser tasks, research, and writing automation. | **~$5.4M** Funding / ~$4.2M ARR | Starts at $19.99/mo | Limited monthly AI credits |
 | **[AgentGPT](https://agentgpt.reworkd.ai/)** | Autonomous agent for task planning and execution (Note: Project Archived). | **~$1.25M+** Funding / ~$2.8M ARR | $40/mo (Legacy) | 5 demo agents per day |
 | **[Workforce Wave](https://www.workforcewave.com/)** | AI voice agent and virtual receptionist platform for SMBs that answers calls 24/7, screens callers, and books appointments. | Early-stage / Seed (<$1M ARR) | Custom (Quote-based) | Demo on request |
+| **[PlaceCall](https://voygr.tech/placecall/)** | Phone assistant for people and AI agents: places real calls to US businesses (bookings, appointments, quotes), gets through phone menus and holds, and returns the outcome and transcript. Available as an API and a remote MCP server. | Early-stage (VOYGR, Y Combinator-backed) | $0.10 per successful call; lower on credit packs | 250 free calls with each new API key (25/day) |
 
 **💡 Other notable mentions**: [Aypods](https://aypods.com/), [Cognosys](https://www.cognosys.ai/), and [Godmode.space](https://godmode.space/).
 
